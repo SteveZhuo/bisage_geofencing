@@ -15,7 +15,7 @@ In testing, the embedding of each node is quickly inferenced through aggregation
 4. Run **hbos.py**, the result would be in folder **result**, logs files would be in folder **update_output**. This file builds the initial histogram for outlier detection and generates the raw outlier score for 
 each embedding using the HBOS outlier detection algorithm. 
 
-5. Run **sigmoid_scaling.py**, the result would be in folder **result**. This file applies sigmoid scaling to the outlier scores and detect outliers if any. It also updates the histograms built in the HBOS model if 
+5. Run **sigmoid_scaling.py**, the result would be in folder **result**. This file applies sigmoid scaling to the outlier scores and detects outliers if any. It also updates the histograms built in the HBOS model if 
 there is highly confident in-boundary signal record. 
 
 For mall, we split the dataset into parts, thus some additional numbering of filename would be required here.
