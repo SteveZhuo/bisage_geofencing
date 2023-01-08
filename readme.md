@@ -1,5 +1,5 @@
 Note: all configurations (required for running) are in **config.py**.
-Current **config.py** is the basic lab dataset, which is of smaller size and faster to train.
+Current **config.py** is the lab dataset.
 To run the shopping mall experiment, change the 'data_name' in **config.py** to 'mall'. 'id' in **config.py** shall also be changed correspondingly.
 To run the UJI experiments, change the 'data_name' in **config.py** to 'uji{floor_id}'. 'id' in **config.py** shall also be changed correspondingly.
 
