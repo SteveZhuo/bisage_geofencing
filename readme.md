@@ -18,4 +18,4 @@ each embedding using the HBOS outlier detection algorithm.
 5. Run **sigmoid_scaling.py**, the result would be in folder **result**. This file applies sigmoid scaling to the outlier scores and detects outliers if any. It also updates the histograms built in the HBOS model if 
 there is highly confident in-boundary signal record. 
 
-For mall, we split the dataset into parts, thus some additional numbering of filename would be required here.
+For mall, due to the large number of signal records, we split the dataset into parts, thus additional numbering of filename in the config.py would be required here.
