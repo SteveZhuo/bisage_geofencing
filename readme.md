@@ -10,7 +10,7 @@ To run the UJI experiments, change the 'data_name' in **config.py** to 'uji{floo
 2. Run **prep_graph.py**, the output would be folders in **emb_output**. This file processes the signal records and generates corresponding bipartite graph. 
 In training, the signal records are used to construct an initial bipartite graph. In testing, new MAC nodes and signal-record nodes will be added into the graph.
 
-3. Run **bisage.py**(requires modifying parameters in config.py, in our example, "lab_train" and "lab_test"), the output would be folders in **emb_output/{your data name}/embedding**. This file processes the 
+3. Run **bisage.py** (requires modifying parameters in config.py, in our example, "lab_train" and "lab_test"), the output would be folders in **emb_output/{your data name}/embedding**. This file processes the 
 bipartite graph and generates the embedding for each node using our proposed representation learning algorithm BiSAGE. In training, it generates node embeddings and learns weight matrices through minimizing the loss function. 
 In testing, the embedding of each node is quickly inferenced through aggregation.
 
