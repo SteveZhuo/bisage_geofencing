@@ -1,0 +1,1 @@
+{"0.0": {"precision": 1.0, "recall": 0.9843330349149507, "f1-score": 0.9921046695240243, "support": 2234}, "accuracy": 0.9843330349149507, "weighted avg": {"precision": 1.0, "recall": 0.9843330349149507, "f1-score": 0.9921046695240242, "support": 2234}}
