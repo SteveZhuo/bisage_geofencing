@@ -1,7 +1,7 @@
 Note: all configurations (required for running) are in **config.py**.
 Current **config.py** is the lab dataset.
 
-To run the shopping mall experiment, change the 'data_name' in **config.py** to 'mall'. 'id' in **config.py** shall also be changed correspondingly.
+To run the shopping mall experiment, change the 'data_name' in **config.py** to 'mall'. 'id' in **config.py** shall also be changed correspondingly. For mall, due to the large number of signal records, we split the dataset into parts, thus additional numbering of filename ('parts') in the config.py would be required here.
 
 To run the UJI experiments, change the 'data_name' in **config.py** to 'uji{floor_id}'. 'id' in **config.py** shall also be changed correspondingly.
 
@@ -20,4 +20,3 @@ each embedding using the HBOS outlier detection algorithm.
 5. Run **sigmoid_scaling.py**, the result would be in folder **result**. This file applies sigmoid scaling to the outlier scores and detects outliers if any. It also updates the histograms built in the HBOS model if 
 there is highly confident in-boundary signal record. 
 
-For mall, due to the large number of signal records, we split the dataset into parts, thus additional numbering of filename (parts) in the config.py would be required here.
