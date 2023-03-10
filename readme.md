@@ -1,3 +1,10 @@
+# Semi-supervised Learning with Network Embedding on Ambient RF Signals for Geofencing Services [ICDE 2023]
+
+This is the official implementation of the paper: <br/>
+> [**Semi-supervised Learning with Network Embedding on Ambient RF Signals for Geofencing Services**](https://arxiv.org/abs/2210.07889)      
+> Weipeng Zhuo, Ka Ho Chiu, Jierun Chen, Jiajie Tan, Edmund Sumpena, Sangtae Ha, S.-H. Gary Chan, Chul-Ho Lee       
+> *IEEE International Conference on Data Engineering (ICDE), 2023*
+
 Note: all configurations (required for running) are in **config.py**.
 
 Current **config.py** is the lab dataset.
